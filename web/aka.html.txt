@@ -1,0 +1,80 @@
+<html> 
+ 	<head> 
+ 		<meta charset="utf-8"> 
+ 		<meta name="viewport" content="width=device-width, initial-scale=1"> 
+ 		<link rel="stylesheet" type="text/css" href="aka.css"> 
+ 	</head> 
+ 	<body> 
+ 		<div class="wrapper"> 
+ 			<div class="main_logo"> 
+ 				<a href="https://medium.com/ranchimall"><img width="255px" src="a.jpg"></a> 
+ 			</div> 
+			 <table name="n1">
+				<tr>
+					<td>
+						<button class="button"><a href="#num">Basic Details</a></button>
+					</td>
+					<td>
+						<button class="button"><a href="advance.html">Advance Details</a></button>
+					</td>
+				</tr>
+			</table>		
+ 			<div class="sectionWrap"> 
+ 				<div class="midWrap"> 
+ 					<div id="log"><h2>Details</h2></div> 
+ 					<form id="form1" name="form1">
+						<table>
+							<tr>
+								<td>
+								<div id="line"> 
+									<label for="First name">First name:</label> 
+									<input type="text" name="First Name" id="First Name" placeholder="Enter Your First Name" required> 
+								</div>
+								</td> 
+								<td>
+									<div id="line"> 
+										<label for="Last Name">Last Name:</label> 
+										<input type="text" name="last" id="Last Name" placeholder="enter Your Last Name"> 
+									</div> 
+								</td>
+							</tr>
+							<tr>
+							    <td>
+									<div id="line"> 
+									<label for="gender" id="First Name">Gender:</label> 
+									<select name="s1">
+									<option value="1">Male</option>
+									<option value="2">Female</option>
+									</select>
+							    	</div>
+								</td>
+								<td>
+									<div id="line"> 
+									<label for="birthday">Birth Date:</label> 
+									<input type="date" name="birth" id="Last Name" placeholder="Enter your date of Birth" name="birth" required>
+									</div>
+							    </td>
+							</tr>
+							<tr>	
+								<td>
+									<div id="line"> 
+									<label for="Email">Email:</label> 
+									<input type="email" name="email" id="First Name" placeholder="Enter Your Email Address" required>
+									</div>
+								</td>
+								<td>	
+									<div id="line"> 
+									<label for="number">Number:</label>
+									<input type="number" name="num" id="Last Name" placeholder="Enter Your Mobile Number" required>
+									</div>
+								</td>
+							</tr>
+						</table>		
+ 						
+ 					</form> 
+ 				</div> 
+ 			</div> 
+ 		</div>
+		
+ 	</body> 
+ </html>
